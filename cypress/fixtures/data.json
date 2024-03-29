@@ -1,0 +1,16 @@
+{
+  "errorMessage": {
+  "usernameRequired": "A username is required.",
+  "usernameMustContainsLettersOrNumbers": "Your username may only contain letters and numbers.",
+  "emailRequired": "An email is required.",
+  "emailMustBeValid": "Your email must be valid.",
+  "passwordMustBeSixOrMoreCharactersLong": "Your password must be at least 6 characters long.",
+  "passwordRequired": "A password is required.",
+  "usernameAndEmailRequired": "A username is required.An email is required.",
+  "usernameAndPasswordRequired": "A username is required.A password is required.",
+  "emailAndPasswordRequired": "An email is required.A password is required.",
+  "usernameEmailAndPasswordRequired": "A username is required.An email is required.A password is required."
+  
+}
+
+}

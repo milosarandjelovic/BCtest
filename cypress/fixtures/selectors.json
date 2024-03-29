@@ -1,0 +1,16 @@
+{
+  "selectors": {
+    "usernameField": "input#username"
+  },
+
+  "itemSelectors": {
+    "logo": "header.purchase-header div",
+
+    "purchaseStatusBar": "div.purchase-hdr",
+
+    "signUpTitle": "header.module-header h1",
+
+    "usernameLable": "label[for=\"username\"]"
+
+  }
+}

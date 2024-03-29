@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "cypress": "^13.7.1",
+    "prettier": "3.2.5"
+  },
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  }
+}
