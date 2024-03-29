@@ -1,6 +1,9 @@
 {
-  "selectors": {
-    "usernameField": "input#username"
+  "inputSelectors": {
+    "usernameField": "input#username",
+    "emailField": "div.form-body div:nth-child(2) input",
+    "passwordField": "input#password",
+    "recaptchaCheckbox": ".g-recaptcha"
   },
 
   "itemSelectors": {
@@ -10,7 +13,21 @@
 
     "signUpTitle": "header.module-header h1",
 
-    "usernameLable": "label[for=\"username\"]"
+    "usernameLabel": "label[for=\"username\"]",
+
+    "usernameVerificationInfo": "div.module-body div div span",
+
+    "emailLabel": "div.form-field.wide:nth-child(2) label",
+
+    "passwordLabel": "label[for=\"password\"]",
+
+    "createButton": "input.button.cta",
+
+    "privacyPolicyButton": "div.form-footer ul li p a",
+
+    "privacyPolicyText": "div.form-footer ul  li em",
+
+    "signInButton": "header.module-header h1"
 
   }
 }
