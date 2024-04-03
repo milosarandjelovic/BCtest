@@ -74,6 +74,23 @@ describe('Sign up page tests', () => {
     );
   });
 
+  it('Unsuccessful sign up using already used username', () => {
+    cy.get(selectors.inputSelectors.usernameField).type('username111123344ww1');
+
+    cy.get(selectors.inputSelectors.emailField).type(
+      'test111123433313ww@mnsaf.com'
+    );
+
+    cy.get(selectors.inputSelectors.passwordField).type('password123');
+
+    cy.get(selectors.itemSelectors.createButton).click();
+
+    cy.get('div.notification.error p').should(
+      'have.text',
+      data.errorMessage.usernameTaken
+    );
+  });
+
   it('Successful sign up using Username with upercase letters and numbers', () => {
     cy.get(selectors.inputSelectors.usernameField).type('TEST123332WW');
 

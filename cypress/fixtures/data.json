@@ -9,8 +9,8 @@
   "usernameAndEmailRequired": "A username is required.An email is required.",
   "usernameAndPasswordRequired": "A username is required.A password is required.",
   "emailAndPasswordRequired": "An email is required.A password is required.",
-  "usernameEmailAndPasswordRequired": "A username is required.An email is required.A password is required."
-  
+  "usernameEmailAndPasswordRequired": "A username is required.An email is required.A password is required.",
+  "usernameTaken": "That username is already taken."
 }
 
 }
