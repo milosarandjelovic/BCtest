@@ -1,4 +1,8 @@
 {
+  "webPagesURLs": {
+    "signUp": "https://rotogrinders.com/sign-up"
+  },
+
   "inputSelectors": {
     "usernameField": "input#username",
     "emailField": "div.form-body div:nth-child(2) input",
@@ -27,7 +31,23 @@
 
     "privacyPolicyText": "div.form-footer ul  li em",
 
-    "signInButton": "header.module-header h1"
+    "signInButton": "header.module-header h1",
 
+    "notification": "div.notification.error p"
+  },
+
+  "welcomePage": {
+    "welcomeMessageElement": "article.post h1",
+    "welcomeMessageText": "Welcome to RotoGrinders! Thanks for signing up!"
+  },
+  "privacyPolicyPage": {
+    "title": "div.form-footer a",
+    "privacyPolicyTitleText": "Privacy Policy"
+  },
+
+  "signInPage": {
+
+    "formTitle": "header.module-header h1",
+    "formTitleText": "Sign In"
   }
 }
